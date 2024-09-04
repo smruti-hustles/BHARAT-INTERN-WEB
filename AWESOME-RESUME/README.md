@@ -42,17 +42,9 @@ To run the project locally, follow these steps:
 3. Preview the resume to ensure all information is correct.
 4. Click the "Download PDF" button to generate and download your resume in PDF format.
 
-## Screenshots
-
-![Screenshot of Awesome Resume](screenshot.png)
-
 ## Contributing
 
 Contributions are welcome! If you have any ideas for new features or improvements, feel free to submit an issue or a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
@@ -60,5 +52,5 @@ For any questions or feedback, please feel free to reach out.
 
 ---
 
-### Follow me on GitHub: [Your GitHub Profile](https://github.com/yourusername)
+### Follow me on GitHub: [Your GitHub Profile](https://github.com/smruti-hustles)
 
