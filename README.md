@@ -17,28 +17,13 @@ A web application that allows users to create a professional resume using a cust
 
 A personal portfolio website to showcase projects, skills, and achievements. Built with a modern design, this website includes multiple sections for different types of content.
 
-- **Features:**
-  - Personal information and biography.
-  - Project showcases with descriptions and links.
-  - Contact form for easy communication.
-
 ### 3. [Netflix Clone](netflix)
 
 A front-end replica of the Netflix homepage using HTML, CSS, and JavaScript. This project aims to mimic the look and feel of the popular streaming service.
 
-- **Features:**
-  - Dynamic content and interactive user interface.
-  - Responsive design to adapt to different screen sizes.
-  - Basic JavaScript functionality for a realistic user experience.
-
 ### 4. [Temperature Converter](temperature-converter)
 
 A simple web tool to convert temperatures between Celsius, Fahrenheit, and Kelvin scales. Built using JavaScript to handle the conversion logic and dynamic updates.
-
-- **Features:**
-  - Input temperature in any of the supported units.
-  - Real-time conversion and results display.
-  - Minimalistic design for quick usage.
 
 ## 🚀 Getting Started
 
@@ -63,10 +48,6 @@ To explore these projects locally, follow these steps:
 ## 🤝 Contributing
 
 Contributions are welcome! If you have any suggestions or improvements, feel free to fork the repository, create a new branch, and submit a pull request.
-
-## 📄 License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## 📧 Contact
 
