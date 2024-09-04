@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome-Resume</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <section id="header">
+        <a href = "index.html" class = "navbar-brand">
+            <img src = "photos/cv.png" alt = "" class = "navbar-brand-icon">
+            <span class = "navbar-brand-text">awesome <span>resume.</span>
+        </a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="templates.html">Templates</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Login/Sign</a></li>
+                <li id="lg-bag"><a href=""><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header">
+        <h2>#awesomeresume</h2>
+        <p>Build a standout resume with ease. Our professional templates and user-friendly tools help you create a resume that gets results.</p>
+    </section>
+
+    <section id="hero">
+        <h4>Elevate Your Career</h4>
+        <h2>Build Your </h2>
+        <h1>Perfect Resume in Minutes!</h1>
+        <p>Craft a professional resume effortlessly. Our easy-to-use builder helps you stand out from the crowd.</p>
+         <a href="templates.html"><button class="normal">Get Started Now</button></a>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4>Repair Services</h4>
+        <h2>Only 2% <span>of resumes make it pass the first round.</span> - Be in the top 2%</h2>
+        <a href="templates.html"><button class="normal">Explore More</button></a>
+        
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Craft Your Perfect Resume</h2>
+        <p>Choose from our expertly designed templates to make your resume stand out.</p>
+        <div class="pro-container">
+           
+
+            <div class="pro">                       
+                <a href="templates.html"><img src="photos/temp1.jpeg" alt=""></a>
+            </div>
+
+            <div class="pro">                       
+                <a href="templates.html"><img src="photos/temp1.jpeg" alt=""></a>
+            </div>
+
+            <div class="pro">                       
+                <a href="templates.html"><img src="photos/temp1.jpeg" alt=""></a>
+            </div>
+            <div class="pro">                       
+                <a href="templates.html"><img src="photos/temp1.jpeg" alt=""></a>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3 class="faq-question">How do I create a resume?</h3>
+                <div class="faq-answer">
+                    <p>Click on the "Get Started" button. Follow the prompts to input your personal information, education, work experience, skills, and any additional sections you'd like to include in your resume.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">Can I download my resume as a PDF file?</h3>
+                <div class="faq-answer">
+                    <p>Yes, once you've completed your resume, you can download it as a PDF file. This ensures that it maintains its formatting and can be easily shared with employers.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">Do you provide any guidance on writing resume summaries or objectives?</h3>
+                <div class="faq-answer">
+                    <p>Yes, we offer tips and examples to help you craft effective resume summaries or objectives that grab the attention of employers and highlight your career goals. Go to the Contact section and write your query there. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // JavaScript for toggling FAQ answers
+        const faqs = document.querySelectorAll('.faq-item');
+
+        faqs.forEach(faq => {
+            faq.addEventListener('click', () => {
+                faq.classList.toggle('active');
+            });
+        });
+    </script>
+
+    <section class="features-section">
+        <div class="container">
+            <div class="feature-box">
+                <h3>Make a resume that wins interviews!</h3>
+                <p>Use our resume maker with its advanced creation tools to tell a professional story that engages recruiters, hiring managers, and even CEOs.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Resume writing made easy!</h3>
+                <p>Resume writing has never been this effortless. Pre-generated text, visual designs, and more—all already integrated into the resume maker. Just fill in your details.</p>
+            </div>
+            <div class="feature-box">
+                <h3>A recruiter-tested CV maker tool</h3>
+                <p>Our resume builder and its pre-generated content are tested by recruiters and IT experts. We help your CV become truly competitive in the hiring process.</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Get E-mail updates about our latest <span>resume.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <div class="links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Uses</a>
+            <a href="#">Our Company</a>
+        </div>
+        <p>Copyright © 2024 All Rights Reserved</p>
+     </section>
+    <!-- javascript script file link -->
+    <script src="script.js"></script>
+</body>
+</html>
